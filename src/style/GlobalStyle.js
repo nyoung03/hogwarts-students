@@ -35,6 +35,7 @@ body {
 	line-height: 1;
   font-family: 'Noto Serif HK', serif;
   /* font-family: 'Satisfy', cursive; */
+  background-color: black;
 }
 ol, ul {
 	list-style: none;
