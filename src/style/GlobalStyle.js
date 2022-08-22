@@ -36,6 +36,7 @@ body {
   font-family: 'Noto Serif HK', serif;
   /* font-family: 'Satisfy', cursive; */
   background-color: black;
+  color: wheat;
 }
 ol, ul {
 	list-style: none;
@@ -51,6 +52,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+a {
+  text-decoration:none;
+  color: inherit;
 }
 `;
 
