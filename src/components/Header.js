@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const Wrapper = styled.div`
   font-family: "Satisfy", cursive;
@@ -22,31 +22,23 @@ const MusicBtn = styled.svg`
   }
 `;
 
+const fadein = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+`;
+
 const Logo = styled.h2`
   font-size: 40px;
   padding: 0 10px;
-  animation: fadein 5s linear 0s infinite alternate;
-  -webkit-animation: fadein 5s linear 0s infinite alternate;
+  animation: ${fadein} 5s linear 0s infinite alternate;
+  -webkit-animation: ${fadein} 5s linear 0s infinite alternate;
   margin-top: 0;
-  text-shadow: 2px 2px 6px #ccac00;
-  color: #ffd700;
-
-  @keyframes fadein {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 0.5;
-    }
-  }
-  @-webkit-keyframes fadein {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 0.5;
-    }
-  }
+  text-shadow: 2px 4px 10px #ccac00;
+  color: #c68a12;
 `;
 
 function Header() {
