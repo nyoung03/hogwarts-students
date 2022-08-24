@@ -1,5 +1,6 @@
 import { Link, useMatch, Route, Routes } from "react-router-dom";
 import styled from "styled-components";
+import Carousel from "../components/Carousel";
 import Header from "../components/Header";
 import All from "./All";
 import Dormitory from "./Dormitory";
@@ -37,6 +38,8 @@ function Main() {
         <Route path="all" element={<All />} />
         <Route path="dormitory" element={<Dormitory />} />
       </Routes>
+
+      {allMatch || dormitory ? null : <Carousel />}
     </>
   );
 }
