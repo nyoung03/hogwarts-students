@@ -60,7 +60,6 @@ const Name = styled.div`
 `;
 
 const Info = styled.div`
-  /* background-color: red; */
   margin-bottom: 10px;
   font-size: 14px;
   text-align: center;
@@ -93,7 +92,6 @@ const Detail = styled.svg`
 
 function StudentCard({ dateOfBirth, gender, ancestry, house, image, name }) {
   const [hover, setHover] = useState(false);
-  // const { isLoading, data } = useQuery("student", AllStudents);
   return (
     <Wrapper>
       <Card
