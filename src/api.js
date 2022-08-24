@@ -3,3 +3,9 @@ export function AllStudents() {
     (response) => response.json()
   );
 }
+
+export function Dormitory(type) {
+  return fetch(`http://hp-api.herokuapp.com/api/characters/house/${type}`).then(
+    (response) => response.json()
+  );
+}
