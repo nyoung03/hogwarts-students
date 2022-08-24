@@ -33,7 +33,6 @@ function All() {
   const [limit, setLimit] = useState(10);
   const [page, setPage] = useState(1);
   const offset = (page - 1) * limit;
-  console.log(window.innerWidth);
   return (
     <Wrapper>
       {isLoading ? (
