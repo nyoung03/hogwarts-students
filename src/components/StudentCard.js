@@ -17,16 +17,16 @@ const Card = styled.div`
   height: 280px;
   position: relative;
   perspective: center;
-  transition: 1s;
+  transition: 3s;
   transform-style: preserve-3d;
   background-image: url("https://cdn.pixabay.com/photo/2017/02/02/07/44/paper-2032145_960_720.jpg");
   background-position: center;
-  margin: 20px auto;
+  margin: 25px auto;
   animation: ${bounce} 2s linear 0s infinite alternate;
 
   &:hover {
-    background-color: red;
     transform: rotateY(180deg);
+    transition: 3s;
   }
 `;
 
