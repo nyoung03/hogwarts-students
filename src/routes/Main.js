@@ -20,7 +20,8 @@ const Tab = styled.div`
 
 function Main() {
   const allMatch = useMatch("/all");
-  const dormitory = useMatch("/dormitory");
+  const dormitoryMatch = useMatch("/dormitory");
+  const mainMatch = useMatch("/");
   return (
     <>
       <Header />
@@ -29,17 +30,17 @@ function Main() {
         <Tab isActive={allMatch !== null}>
           <Link to="all">All</Link>
         </Tab>
-        <Tab isActive={dormitory !== null}>
+        <Tab isActive={dormitoryMatch !== null}>
           <Link to="dormitory">Dormitory</Link>
         </Tab>
       </Tabs>
 
       <Routes>
         <Route path="all" element={<All />} />
-        <Route path="dormitory" element={<Dormitory />} />
+        <Route path="dormitory/*" element={<Dormitory />} />
       </Routes>
 
-      {allMatch || dormitory ? null : <Carousel />}
+      {mainMatch ? <Carousel /> : null}
     </>
   );
 }

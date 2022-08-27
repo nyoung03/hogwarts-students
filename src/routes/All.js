@@ -14,7 +14,7 @@ const CardList = styled.div`
   @media (max-width: 1088px) {
     grid-template-columns: repeat(3, 1fr);
   }
-  @media (max-width: 500px) {
+  @media (max-width: 758px) {
     grid-template-columns: repeat(1, 1fr);
   }
   display: grid;

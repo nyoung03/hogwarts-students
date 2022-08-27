@@ -1,4 +1,9 @@
+import { Link, Route, Routes, useMatch } from "react-router-dom";
 import styled from "styled-components";
+import Gryffindor from "./Gryffindor";
+import Hufflepuff from "./Hufflepuff";
+import Ravenclaw from "./Ravenclaw";
+import Slytherin from "./Slytherin";
 
 const DormitoryCardList = styled.div`
   display: grid;
@@ -48,35 +53,51 @@ const dormitoryInfo = [
     name: "Gryffindor",
     ideology: "I will teach any children who show courage.",
     color: "#a51b0b",
+    link: "gryffindor",
   },
   {
     name: "Ravenclaw",
     ideology: "I will teach only the smartest kids.",
     color: "#203A5E",
+    link: "ravenclaw",
   },
   {
     name: "Hufflepuff",
     ideology: "I will teach all children without discrimination.",
     color: "#cccc00",
+    link: "hufflepuff",
   },
   {
     name: "Slytherin",
     ideology: "I will teach only children of the purest bloodlines.",
     color: "#006600",
+    link: "slytherin",
   },
 ];
 
 function Dormitory() {
+  const dormitoryMatch = useMatch("/dormitory");
   return (
     <>
-      <DormitoryCardList>
-        {dormitoryInfo.map((i, idx) => (
-          <DormitoryCard key={idx} color={i.color}>
-            <div>{i.name}</div>
-            <div>{i.ideology}</div>
-          </DormitoryCard>
-        ))}
-      </DormitoryCardList>
+      {dormitoryMatch ? (
+        <DormitoryCardList>
+          {dormitoryInfo.map((i, idx) => (
+            <Link to={i.link} key={idx}>
+              <DormitoryCard color={i.color}>
+                <div>{i.name}</div>
+                <div>{i.ideology}</div>
+              </DormitoryCard>
+            </Link>
+          ))}
+        </DormitoryCardList>
+      ) : null}
+
+      <Routes>
+        <Route path="gryffindor" element={<Gryffindor />} />
+        <Route path="ravenclaw" element={<Ravenclaw />} />
+        <Route path="hufflepuff" element={<Hufflepuff />} />
+        <Route path="slytherin" element={<Slytherin />} />
+      </Routes>
     </>
   );
 }
