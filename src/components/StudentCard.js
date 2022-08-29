@@ -1,15 +1,17 @@
 import { useState } from "react";
 import styled, { keyframes } from "styled-components";
 
-const Wrapper = styled.div``;
-
 const bounce = keyframes`
   from {
-    margin-top: 0px;
+    transform: translateY(0px);
   }
   to {
-    margin-top: 10px;
+    transform: translateY(-10px);
   }
+`;
+
+const Wrapper = styled.div`
+  animation: ${bounce} 2s linear 0s infinite alternate;
 `;
 
 const Card = styled.div`
@@ -17,16 +19,15 @@ const Card = styled.div`
   height: 280px;
   position: relative;
   perspective: center;
-  transition: 3s;
+  transition: 2s;
   transform-style: preserve-3d;
   background-image: url("https://cdn.pixabay.com/photo/2017/02/02/07/44/paper-2032145_960_720.jpg");
   background-position: center;
   margin: 25px auto;
-  animation: ${bounce} 2s linear 0s infinite alternate;
 
   &:hover {
     transform: rotateY(180deg);
-    transition: 3s;
+    transition: 2s;
   }
 `;
 
