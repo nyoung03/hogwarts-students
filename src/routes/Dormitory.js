@@ -40,7 +40,6 @@ const DormitoryCard = styled.div`
     }
 
     &:last-child {
-      /* background-color: blue; */
       width: 80%;
       text-align: center;
       padding: 5px 0;
