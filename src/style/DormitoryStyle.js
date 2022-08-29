@@ -3,11 +3,9 @@ import styled from "styled-components";
 export const DormitoryWrapper = styled.div`
   width: 80%;
   margin: 0 auto;
-  /* background-color: red; */
 `;
 
 export const DormitoryName = styled.div`
-  /* background-color: blue; */
   padding: 30px 0;
   font-family: "Satisfy", cursive;
   font-size: 35px;
