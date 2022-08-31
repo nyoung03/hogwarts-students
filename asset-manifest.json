@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/hogwarts-students/static/js/main.aeafff42.js",
+    "static/media/ost.mp3": "/hogwarts-students/static/media/ost.d76307a02672ba995bfb.mp3",
+    "index.html": "/hogwarts-students/index.html",
+    "main.aeafff42.js.map": "/hogwarts-students/static/js/main.aeafff42.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.aeafff42.js"
+  ]
+}
