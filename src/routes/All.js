@@ -4,6 +4,7 @@ import StudentCard from "../components/StudentCard";
 import { useQuery } from "react-query";
 import { useState } from "react";
 import Pagination from "../components/Pagination";
+import DetailModal from "../components/DetailModal";
 
 const Wrapper = styled.div`
   width: 80%;
@@ -33,24 +34,43 @@ function All() {
   const [limit, setLimit] = useState(10);
   const [page, setPage] = useState(1);
   const offset = (page - 1) * limit;
+  const [modalOpen, setModalOpen] = useState(false);
+  const openModal = () => {
+    setModalOpen(true);
+    console.log(modalOpen);
+  };
+  const closeModal = () => {
+    setModalOpen(false);
+  };
   return (
     <Wrapper>
       {isLoading ? (
         <Loading>Aparecium</Loading>
       ) : (
-        <CardList>
-          {data.slice(offset, offset + limit).map((student, idx) => (
-            <StudentCard
-              key={idx}
-              dateOfBirth={student.dateOfBirth}
-              gender={student.gender}
-              ancestry={student.ancestry}
-              house={student.house}
-              image={student.image}
-              name={student.name}
-            />
-          ))}
-        </CardList>
+        <>
+          <CardList>
+            {data.slice(offset, offset + limit).map((student, idx) => (
+              <>
+                <StudentCard
+                  key={idx}
+                  dateOfBirth={student.dateOfBirth}
+                  gender={student.gender}
+                  ancestry={student.ancestry}
+                  house={student.house}
+                  image={student.image}
+                  name={student.name}
+                  openModal={openModal}
+                />
+                <DetailModal
+                  open={modalOpen}
+                  close={closeModal}
+                  name={student.name}
+                  dateOfBirth={student.dateOfBirth}
+                />
+              </>
+            ))}
+          </CardList>
+        </>
       )}
       {isLoading ? (
         ""
