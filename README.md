@@ -28,5 +28,11 @@
 <hr />
 
 ## 예시
-## 1. 메인화면
+**1. 메인화면**
 <img src="https://user-images.githubusercontent.com/87607036/188444291-46aa4f8d-0c1a-4fc9-b083-5aacb1aef60d.gif" />
+**2.**
+<img src="https://user-images.githubusercontent.com/87607036/188446072-1b220ffc-7321-4ccd-a900-640fe678954c.gif" />
+**3.**
+<img src="https://user-images.githubusercontent.com/87607036/188446162-0e8a1f91-5d0d-43d1-95d1-23ecc385428b.gif" />
+**4.**
+<img src="https://user-images.githubusercontent.com/87607036/188446262-bccdcccb-5191-4bd1-8cf9-a27ee75d5d60.gif" />
