@@ -1,6 +1,8 @@
 # hogwarts-students
 노마드 코더의 netflix clone 강의에서 배운 내용을 점검하고자 시작하였습니다. <br />
 이 프로젝트는 호그와트 출석부를 만들기 위해 시작하였습니다. <br />
+또한 이 프로젝트에서는 UI에 자주 사용되는 요소들을 구현하고자 했습니다. <br />
+간단한 Pagnation, Carousel, Modal을 다뤘습니다. <br />
 
 ### 스텍
 - react js
@@ -28,6 +30,8 @@
 <hr />
 
 ### 1. 메인화면
+- 이미지 슬라이드를 구현하여 호그와트 풍경 사진이 자동으로 넘어가게 구현했습니다.
+- 오디오 기능을 추가하여 해리포터 ost를 삽입했습니다.
 <img src="https://user-images.githubusercontent.com/87607036/188444291-46aa4f8d-0c1a-4fc9-b083-5aacb1aef60d.gif" />
 **2.**
 <img src="https://user-images.githubusercontent.com/87607036/188446072-1b220ffc-7321-4ccd-a900-640fe678954c.gif" />
