@@ -34,11 +34,14 @@
 - 오디오 기능을 추가하여 해리포터 ost를 삽입했습니다.
 <img src="https://user-images.githubusercontent.com/87607036/188444291-46aa4f8d-0c1a-4fc9-b083-5aacb1aef60d.gif" />
 
-### 2. 학생 리스트
+### 2. 학생 카드
 - 학생의 사진 위에 마우스를 올리면 카드의 뒷장을 볼 수 있습니다. 카드의 뒤에는 간단한 정보가 담겨 있습니다.
 - 카드 뒷면 하단의 지팡이를 클릭하면 모달이 나타나고 학생의 세부 정보를 담기 위해 구현 중입니다. 
 <img src="https://user-images.githubusercontent.com/87607036/188446072-1b220ffc-7321-4ccd-a900-640fe678954c.gif" />
-**3.**
+
+### 3. 학생 리스트 (Pagnation)
+- 모든 학생을 보이는 탭에서는 페이지당 10명의 학생만 보이게 하였습니다.
 <img src="https://user-images.githubusercontent.com/87607036/188446162-0e8a1f91-5d0d-43d1-95d1-23ecc385428b.gif" />
+
 **4.**
 <img src="https://user-images.githubusercontent.com/87607036/188446262-bccdcccb-5191-4bd1-8cf9-a27ee75d5d60.gif" />
