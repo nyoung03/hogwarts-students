@@ -27,8 +27,7 @@
 
 <hr />
 
-## 예시
-**1. 메인화면**
+### 1. 메인화면
 <img src="https://user-images.githubusercontent.com/87607036/188444291-46aa4f8d-0c1a-4fc9-b083-5aacb1aef60d.gif" />
 **2.**
 <img src="https://user-images.githubusercontent.com/87607036/188446072-1b220ffc-7321-4ccd-a900-640fe678954c.gif" />
