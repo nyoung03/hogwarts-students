@@ -4,6 +4,8 @@
 또한 이 프로젝트에서는 UI에 자주 사용되는 요소들을 구현하고자 했습니다. <br />
 간단한 Pagnation, Carousel, Modal을 다뤘습니다. <br />
 
+반복적으로 사용되는 스타일과 컴포넌트를 분리하여 재사용에 용이하게 하였습니다. <br />
+
 ### 스텍
 - react js
 - react-router-dom
@@ -43,5 +45,6 @@
 - 모든 학생을 보이는 탭에서는 페이지당 10명의 학생만 보이게 하였습니다.
 <img src="https://user-images.githubusercontent.com/87607036/188446162-0e8a1f91-5d0d-43d1-95d1-23ecc385428b.gif" />
 
-**4.**
+### 4. 기숙사 별 리스트
+- 4개의 기숙사 카드를 구별하여 기숙사 별로 학생 리스트를 볼 수 있게 구현했습니다.
 <img src="https://user-images.githubusercontent.com/87607036/188446262-bccdcccb-5191-4bd1-8cf9-a27ee75d5d60.gif" />
