@@ -25,6 +25,11 @@
 - Dormitory : 기숙사별 이동 카드를 보여줍니다. 기숙사 카드를 선택하면 해당 기숙사 학생 리스트를 보여줍니다.
 - StudentCard : 전면에는 학생의 사진과 이름이, 후면에는 간단한 정보를 나타냈습니다.
 
+### 구조
+```plaintext
+1) src
+```
+
 ### 에러 정리
 - 애니메이션 버벅거림
 <a href="https://fuzzy-energy-8aa.notion.site/Hogwarts-students-dd0c052388e945ca893b2c2c30658e0d">노션 정리</a>
