@@ -24,3 +24,7 @@
 ### 에러 정리
 - 애니메이션 버벅거림
 <a href="https://fuzzy-energy-8aa.notion.site/Hogwarts-students-dd0c052388e945ca893b2c2c30658e0d">노션 정리</a>
+
+<hr />
+### 예시
+![hogwart1](https://user-images.githubusercontent.com/87607036/188444291-46aa4f8d-0c1a-4fc9-b083-5aacb1aef60d.gif)
