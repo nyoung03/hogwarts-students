@@ -6,7 +6,7 @@
 
 반복적으로 사용되는 스타일과 컴포넌트를 분리하여 재사용에 용이하게 하였습니다. <br />
 
-<a href="https://nyoung03.github.io/hogwarts-students/"></a>
+<a href="https://nyoung03.github.io/hogwarts-students/">보러가기</a>
 
 ### 스텍
 - react js
