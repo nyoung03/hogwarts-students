@@ -28,13 +28,28 @@
 ### 구조
 ```plaintext
 1) src
- - audio
- - components
- - routes
- - style
  - api.js
  - App.js
  - index.js
+ - audio
+   - ost.mp3
+ - components
+  - Carousel.js
+  - DetailModal.js
+  - Header.js
+  - Pagination.js
+  - StudentCard.js
+ - routes
+  - Main.js
+  - All.js
+  - Dormitory.js
+  - Gryffindor.js
+  - Hufflepuff.js
+  - Ravenclaw.js
+  - Slytherin.js
+ - style
+  - GlobalStyle.js
+  - DormitoryStyle.js
 ```
 
 ### 에러 정리
