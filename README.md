@@ -28,6 +28,13 @@
 ### 구조
 ```plaintext
 1) src
+ - audio
+ - components
+ - routes
+ - style
+ - api.js
+ - App.js
+ - index.js
 ```
 
 ### 에러 정리
