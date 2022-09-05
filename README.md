@@ -32,24 +32,24 @@
  - App.js
  - index.js
  - audio
-   - ost.mp3
+     - ost.mp3
  - components
-  - Carousel.js
-  - DetailModal.js
-  - Header.js
-  - Pagination.js
-  - StudentCard.js
+    - Carousel.js
+    - DetailModal.js
+    - Header.js
+    - Pagination.js
+    - StudentCard.js
  - routes
-  - Main.js
-  - All.js
-  - Dormitory.js
-  - Gryffindor.js
-  - Hufflepuff.js
-  - Ravenclaw.js
-  - Slytherin.js
+    - Main.js
+    - All.js
+    - Dormitory.js
+    - Gryffindor.js
+    - Hufflepuff.js
+    - Ravenclaw.js
+    - Slytherin.js
  - style
-  - GlobalStyle.js
-  - DormitoryStyle.js
+    - GlobalStyle.js
+    - DormitoryStyle.js
 ```
 
 ### 에러 정리
