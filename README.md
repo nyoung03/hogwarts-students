@@ -27,5 +27,5 @@
 
 <hr />
 
-# 예시
+### 예시
 <img src="https://user-images.githubusercontent.com/87607036/188444291-46aa4f8d-0c1a-4fc9-b083-5aacb1aef60d.gif" />
